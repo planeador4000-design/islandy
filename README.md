@@ -1,3 +1,42 @@
 # islandy
 
-Este repositorio esta creado para ser conectado en PITCH
+# SIGUE ESTOS PASOS
+
+Para comprobarlo, abre una terminal y escribe: node -v. Debe salir algo como v22.x.x.
+
+**2. Descomprime el ZIP**
+
+Haz clic derecho en Pitch.zip y elige Extraer todo (Windows) o doble clic (macOS).
+Te queda una carpeta llamada pitch.
+
+**3. Abre una terminal dentro de esa carpeta**
+
+**Windows**: *entra en la carpeta pitch, haz clic en la barra de direcciones, escribe cmd y pulsa Enter.*
+
+**macOS**: *abre Terminal y escribe cd (con un espacio), arrastra la carpeta pitch a la ventana y pulsa Enter.*
+
+**Linux**: *clic derecho dentro de la carpeta → Abrir en terminal.*
+
+
+**4. Instala las dependencias (solo la primera vez, tarda uno o dos minutos)**
+
+`npm install`
+
+**5. Enciéndelo**
+
+`npm start`
+
+*Se abre la ventana de Pitch.*
+
+**6. Conecta tus juegos**
+
+Pulsa el icono de ajustes (abajo a la izquierda, los tres deslizadores).
+En Catálogo de juegos escribe tu-usuario/pitch-catalog y pulsa Guardar.
+O, sin catálogo, pulsa el + y escribe usuario/mi-juego, el repo de un juego que ya tenga una Release.
+
+Para que aparezca algo, el repo del juego necesita una Release con un archivo tipo MiJuego-windows.zip, MiJuego-macos.zip o MiJuego-linux.zip.
+
+Si algo falla
+
+npm no se reconoce: cierra y vuelve a abrir la terminal después de instalar Node.
+En Linux, si la ventana no abre: prueba npm start -- --no-sandbox.
