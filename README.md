@@ -1,8 +1,14 @@
 [Pitch.zip](https://github.com/user-attachments/files/32660189/Pitch.zip)
 # islandy
 
-# SIGUE ESTOS PASOS
+# SIGUE ESTOS PASOS:
 
+***Paso a paso para arrancar Pitch en tu ordenador:***
+
+**1. Instala Node.js (si no lo tienes)**
+
+Descarga la versión LTS desde *https://nodejs.org* (necesitas la 20 o superior).
+Para comprobarlo, abre una terminal y escribe: node -v. Debe salir algo como v22.x.x.
 Para comprobarlo, abre una terminal y escribe: node -v. Debe salir algo como v22.x.x.
 
 **2. Descomprime el ZIP**
